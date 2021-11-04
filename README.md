@@ -7,7 +7,7 @@ In this demo, I will demonstrate how to create a LAMP Stack and deploy a Webpage
 
 Ansible is an open-source IT automation engine, so you can use it to automate repetitive system administration tasks. Ansible does not require an agent, it communicates via SSH hence you don’t have to install any agent into your nodes.
 
-Simple we can say Ansible has two main components: inventory and playbook. Inventory includes your nodes, we can say it is a host file. The playbook is a YAML file that is simply put in your order to accomplish in your nodes.
+Simply we can say Ansible has two main components: inventory and playbook. Inventory includes your nodes, we can say it is a host file. The playbook is a YAML file that is simply put in your order to accomplish in your nodes.
 
 **Step 2: Creating Test Environment and Installing Ansible**
 
