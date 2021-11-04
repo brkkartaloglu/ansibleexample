@@ -50,6 +50,8 @@ In my example:
 I grouped my slave machine named server1 under test-servers. Also, I defined server1 IP address under /etc/hosts but you can also define it here.
 Note: Creating VM with default settings applies the same IP address to every VM. To change this simply changes your VM network settings to NAT Network from VM Manager.
  
+ ![image](https://user-images.githubusercontent.com/75986477/140419979-f742081b-fb80-4f35-93cc-a318e41d0581.png)
+
 As I mentioned, Ansible uses SSH to connect nodes, to do this first create an SSH key:
 ```
 $ ssh-keygen
