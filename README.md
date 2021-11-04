@@ -44,7 +44,8 @@ $ sudo edit /etc/ansible/hosts
 ```
 
 In my example:
- 
+
+ ![image](https://user-images.githubusercontent.com/75986477/140415847-3614aa6c-bc37-4391-93b3-fadb5085ad9e.png)
 
 I grouped my slave machine named server1 under test-servers. Also, I defined server1 IP address under /etc/hosts but you can also define it here.
 Note: Creating VM with default settings applies the same IP address to every VM. To change this simply changes your VM network settings to NAT Network from VM Manager.
@@ -97,3 +98,16 @@ To run a playbook:
 ```
 $ ansible-playbook lamp.yml –K
 ```
+![Animation](https://user-images.githubusercontent.com/75986477/140416071-183f80fa-994e-4619-a47c-b9c79532b08b.gif)
+
+**Step 5 : Checking nodes** 
+Files copied destination folder which set in yaml.
+
+ ![image](https://user-images.githubusercontent.com/75986477/140416020-caa7285e-9957-486b-be80-a6835e70f708.png)
+
+And the website is running as expected:
+
+ ![image](https://user-images.githubusercontent.com/75986477/140416032-c06cfb7b-ae2d-4758-baee-a37dfa3a367c.png)
+
+
+
