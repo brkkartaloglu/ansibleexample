@@ -45,8 +45,8 @@ $ sudo edit /etc/ansible/hosts
 
 In my example:
 
- ![image](https://user-images.githubusercontent.com/75986477/140415847-3614aa6c-bc37-4391-93b3-fadb5085ad9e.png)
-
+![image](https://user-images.githubusercontent.com/75986477/140420702-01be16d6-55a6-4b20-a01c-c6ceb189da51.png)
+ 
 I grouped my slave machine named server1 under test-servers. Also, I defined server1 IP address under /etc/hosts but you can also define it here.
 Note: Creating VM with default settings applies the same IP address to every VM. To change this simply changes your VM network settings to NAT Network from VM Manager.
  
@@ -84,7 +84,7 @@ Testing your connection with your nodes:
 ```
 $ ansible –m ping all
 ```
- 
+ ![image](https://user-images.githubusercontent.com/75986477/140415847-3614aa6c-bc37-4391-93b3-fadb5085ad9e.png)
 
 And not to forget, sending the key to nodes requires a password, so in your nodes set a password if it is not defined and use it when it is asked.
 ```
