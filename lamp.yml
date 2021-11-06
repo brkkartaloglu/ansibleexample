@@ -1,5 +1,5 @@
 ---
-- hosts: host1
+- hosts: server1
   remote_user: ubuntu
   
   tasks:
