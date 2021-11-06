@@ -35,16 +35,16 @@
       become: yes
       copy: 
         src: /etc/ansible/index/index.html
-        dest: var/www/html/index/index.html
+        dest: var/www/html/index.html
     - name:  deploy style.css
       become: yes
       copy: 
         src: /etc/ansible/index/style.css
-        dest: var/www/html/index/style.css
+        dest: var/www/html/style.css
     - name:  deploy assets
       become: yes
       copy: 
         src: /etc/ansible/index/puppy.jpg
-        dest: var/www/html/index/puppy.jpg
+        dest: var/www/html/puppy.jpg
 
 
